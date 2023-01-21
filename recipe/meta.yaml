@@ -1,5 +1,5 @@
 {% set name = "zfel" %}
-{% set version = "0.9.4" %}
+{% set version = "0.99" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 53405358ee1e392533ac3f8b0257a5281c888b7bd01db2df5eb1640598480ad1
+  sha256: 6dc73b189aac2802ea5da041a6402f28bd032e04212e5182969d6f3eeea374df
 
 build:
   noarch: python
